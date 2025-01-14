@@ -1,0 +1,462 @@
+/* Desktop Device Section .............. */
+
+@media  (max-width:1460px) { 
+/* ...........Banner Section ..................... */
+.section-p1 {
+    padding: 40px 20px;
+}
+
+#sm-banner .banner-box {
+    min-width: 45%;
+    height: 30vh;
+    margin: 10px;
+}
+
+#banner-3 {
+    padding: 0 40px;
+}
+
+#banner .banner-box {
+    width: 28%;
+} 
+
+
+}
+
+
+
+/* ...........Laptop Device (Portrait and lansspace ) ...........*/
+
+@media (max-width:1177px) {
+      /* ......Hero Section ........ */
+
+      #hero {
+        padding: 0 80px;
+        background-position: top 20% right 30%;
+     }
+
+     #feature {
+        justify-content: center;
+        padding: 30px 40px;
+    }
+
+    #feature .feature-box {
+        margin: 15px 50px;
+    }
+
+    /* ..........Product Section..........  */
+    #product1 .pro-container {
+        justify-content: space-between;
+    }
+
+    #product1 .pro {
+        margin: 20px;
+    }
+
+   .pro:nth-child(7),
+   .pro:nth-child(8) {
+    display: none;
+   }
+
+
+/* ...........Banner Section ..................... */
+    #sm-banner .banner-box {
+        min-width: 45%;
+        height: 30vh;
+        margin: 10px;
+    }
+
+    #banner-3 {
+        padding: 0 40px;
+    }
+
+    #banner .banner-box {
+        width: 28%;
+    } 
+
+    /* ...........news letter  */
+    #newsletter .form {
+        width: 40%;
+    }
+    
+/* Contact Page */
+#form-details {
+    padding: 40px;
+}
+
+#form-details form {
+    width: 45%;
+
+}
+
+
+
+}
+
+
+@media (max-width:799px) {
+    .section-p1 {
+        padding: 40px 40px;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top:0;
+        right: -330px;
+        height: 100vh;
+        width: 300px;
+        padding: 80px 0 0 10px;
+        background-color: #E3E6F3;
+        transition: 0.4s ease;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    }
+
+    #navbar.active {
+        right: 0;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    .mobile, #close {
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+    }
+
+    .mobile i {
+        color: #1a1a1a;
+        font-size: 25px;
+        padding-left: 20px;
+    }
+
+    #close {
+        position: absolute;
+        top:30px;
+        left: 30px;
+        color: #222;
+        font-size: 25px;
+    }
+
+    #lg-bag {
+        display: none;
+    }
+
+    /* ......Hero Section ........ */
+
+    #hero {
+        height: 70vh;
+        padding: 0 80px;
+        background-position: top 20% right 35%;
+    }
+
+    #feature {
+        justify-content: center;
+    }
+
+    #feature .feature-box {
+        margin: 15px 15px;
+    }
+
+    /* ..........Product Section..........  */
+
+    #product1 .pro-container {
+        justify-content: center;
+    }
+
+    #product1 .pro {
+        margin: 15px;
+    }
+
+    #banner {
+        height: 20vh;
+    }
+
+    #sm-banner .banner-box {
+        min-width: 100%;
+        height: 30vh;
+        margin: 10px;
+    }
+
+    #banner-3 {
+        padding: 0 40px;
+    }
+
+    #banner .banner-box {
+        width: 28%;
+    } 
+
+    #banner-3 .banner-box3 {
+        width: 100%;
+        background-position: top 10% right 0;
+    } 
+
+    #newsletter .form {
+        width: 70%;
+    }
+
+    /* blog Section page */
+    #blog {
+        padding: 100px 20px 0 20px;
+    }
+
+    #blog .blog-box {
+        display: flex;
+        align-items: start;
+    }
+
+    #blog .blog-img {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+
+    #blog .blog-text {
+        width: 60%;
+        padding-left: 20px;
+    }
+
+    /* Contact Page */
+    #form-details {
+        padding: 40px;
+    }
+
+    #form-details form {
+        width: 45%;
+
+   }
+   /* Cart Page  */
+
+
+    
+}
+
+/* ........Mobile Device 477px........ */
+@media (max-width: 477px) {
+    #header {
+        padding: 10px 30px;
+    }
+
+    #hero {
+       padding: 0 25px;
+       background-position: top 15% right 34%; 
+    }
+
+        h2 {
+            font-size: 28px;
+    }
+
+    h1 {
+        font-size: 38px;
+        padding-inline: 0 25%;
+        line-height: 45px;
+    }
+
+    p {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    /* #feature section  */
+
+    #feature {
+        justify-content: space-between;
+    }
+
+    #feature .feature-box {
+        width: 155px;
+        margin: 0 0 15px 0;
+        
+    }
+
+    #product1 .pro {
+        width: 100%;
+    }
+
+    #banner {
+        height: 40vh;
+        padding: 0 10px 0 10px;
+    }
+
+    #sm-banner .banner-box {
+        height: 40vh;
+    }
+
+    #banner-3 {
+        padding: 0 20px;
+    }
+
+    #banner-3 .banner-box3 {
+        width: 100%;
+    }
+
+    #newsletter {
+        padding: 40px 20px;
+    }
+
+    #newsletter .form {
+        width: 100%;
+    }
+
+    footer .copy-right {
+        text-align: start;
+        line-height: 20px;
+    }
+
+    /* Select Product  */
+
+    #pro-deatils {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #pro-deatils .pro-image {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #pro-deatils .pro-text {
+        width: 100%;
+    }
+
+    /* blog Section page */
+    #blog {
+        padding: 100px 20px 0 20px;
+    }
+
+    #blog .blog-box {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    #blog .blog-img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    #blog .blog-text {
+        width: 100%;
+    }
+
+    #about-head{
+        flex-direction: column;
+    }
+
+    #about-head div {
+        padding-left: 0px;
+        width: 100%;
+    }
+
+
+    #about-head img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #about-app h1 {
+        text-align: center;
+         padding: 0;
+    }
+
+    #about-app .video {
+        width: 100%;
+    }
+
+    /* Contact Page */
+    #form-details {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #form-details form {
+        width: 75%;
+        margin-bottom: 20px;
+    }
+
+    #form-details .people {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    /* Cart Page  */
+
+    #cart-add {
+            flex-direction: column;
+        }
+
+    #coupon {
+            width: 100%;
+        }
+
+    #subtotal {
+            width: 100%;
+            padding: 20px;
+        }
+
+
+
+} 
+
+/* media 375  */
+
+@media (max-width:390px) {
+    #feature{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* blog Section page */
+    #blog {
+        padding: 100px 20px 0 20px;
+    }
+
+    #blog .blog-box {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    #blog .blog-img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    #blog .blog-text {
+        width: 100%;
+    }
+
+    #about-haed {
+        flex-direction: column;
+    }
+
+    #about-head img {
+        width: 100%;
+    }
+
+    /* contact Page */
+    #contact-details {
+        flex-direction: column;
+    }
+
+    #contact-details  .details {
+        width: 100%;
+    }
+
+    #contact-details .map {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    #form-details {
+        margin: 0;
+    }
+
+}
